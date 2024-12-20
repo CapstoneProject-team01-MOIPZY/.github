@@ -10,6 +10,33 @@
 | ------- | --------------------------------------------- | --------------------------------- | ------------------------------- |
 | **git** | [hknhj](https://github.com/hknhj) | [sanghuniolsida](https://github.com/sanghuniolsida) | [KangJeungHun](https://github.com/KangJeungHun)   |
 
+## 역할 분담
+- **강정훈**: UI / UX
+  - 피그마를 사용하여 기초적인 웹 프 💡MOIPZY
+사용자의 위치 및 날씨 정보를 기반으로 일정과 소유 의류를 고려하여 최적의 옷차림을 추천하는 웹 애플리케이션입니다.🌤️
+
+
+[2024-2] 중앙대학교 소프트웨어학부 캡스톤 디자인 프로젝트
+
+## 💻 팀원
+
+| 이름    | 이석주                                        | 박상훈                            | 강정훈                           |
+| ------- | --------------------------------------------- | --------------------------------- | ------------------------------- |
+| **git** | [hknhj](https://github.com/hknhj) | [sanghuniolsida](https://github.com/sanghuniolsida) | [KangJeungHun](https://github.com/KangJeungHun)   |
+
+## 역할 분담
+- **강정훈**: UI / UX
+  - 피그마를 사용하여 기초적인 웹 와이어프레임 작성
+
+- **박상훈**: Front-end
+  - React를 사용하여 프론트엔드 전체 구현 담당
+  - Vercel을 통하여 프론트엔드 배포
+
+- **이석주**: Back-end
+  - Springboot를 사용하여 백엔드 전체 구현 담당
+  - AWS EC2, AWS RDS를 사용하여 백엔드 서버 배포
+
+
 ## 주요 기능
 - **🌡️날씨 정보 제공**: 현재 위치의 실시간 날씨, 최고/최저 기온 표시
 - **🧥옷차림 추천**: 사용자의 소유 의류를 활용하여 기온과 일정에 적합한 옷차림 추천
@@ -57,3 +84,4 @@ src
          ├── static.uploads.clothes  # 옷 이미지 업로드 저장소  
          ├── templates               # 이메일 템플릿 또는 기타 HTML 파일  
          └── application.yml         # Spring Boot 설정 파일
+```
