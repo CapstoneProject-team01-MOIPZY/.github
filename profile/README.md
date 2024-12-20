@@ -213,7 +213,7 @@ src/
 - **사용 방법**:
   1. 날씨, 일정정보를 통해 오늘 또는 내일의 정보를 알 수 있습니다.
   <img src="https://github.com/user-attachments/assets/d61d59f6-1527-43c3-8fa7-fd53ad35c904" alt="image" width="500" style="height:auto;">
-
+  <br>
   2. 옷차림 추천를 통해 기온, 일정에 맞는 옷차림을 추천해줍니다.
   <img src="https://github.com/user-attachments/assets/cdc29de6-8b71-48a1-a864-933885f537ac" alt="image" width="400" style="height:auto;">
 
