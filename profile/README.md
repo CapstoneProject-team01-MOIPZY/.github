@@ -40,7 +40,8 @@
 ## 기술 스택
 **Frontend**: React.js, Vercel
 <br>
-**Backend**
+<br>
+**Backend** : 
 <br>
 <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
