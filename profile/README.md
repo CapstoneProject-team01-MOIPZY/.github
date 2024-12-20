@@ -56,8 +56,8 @@
 **API**:
   - OpenWeather API: 실시간 날씨 데이터
   - Google Calendar API: 일정 연동
-  - ChatGPT API: 스타일 추천 로직
-**Authentication**: JWT, OAuth 2.0 (Google 로그인)
+  - ChatGPT API: 스타일 추천 로직   
+**Authentication**: JWT, OAuth 2.0 (Google 로그인)   
 **Deployment**: AWS EC2, Vercel
 
 <br>
