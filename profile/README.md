@@ -16,3 +16,13 @@
 - **🗓️일정 연동**: 일정에 따라 옷 스타일 조정
 - **🎨사용자 맞춤 경험**: 사용자별 데이터 저장 기능(선택한 옷차림, 옷차림 피드백, 옷 등록, 옷 정보 수정 및 삭제 등)
 - **🤖챗봇 연동**: 카카오톡 챗봇을 연결하여 사용자 편의성 개선
+
+## 기술 스택
+- **Frontend**: React.js, Vercel
+- **Backend**: Spring Boot, MySQL RDS, Nginx
+- **API**:
+  - OpenWeather API: 실시간 날씨 데이터
+  - Google Calendar API: 일정 연동
+  - ChatGPT API: 스타일 추천 로직
+- **Authentication**: JWT, OAuth 2.0 (Google 로그인)
+- **Deployment**: AWS EC2, Vercel
