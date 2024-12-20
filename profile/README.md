@@ -57,4 +57,3 @@ src
          ├── static.uploads.clothes  # 옷 이미지 업로드 저장소  
          ├── templates               # 이메일 템플릿 또는 기타 HTML 파일  
          └── application.yml         # Spring Boot 설정 파일
-'''
