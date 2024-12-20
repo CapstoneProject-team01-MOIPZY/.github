@@ -116,3 +116,92 @@ src/
 │   └── GoogleCallback.js # 구글 로그인 연동
 
 ```
+
+# 사용 예시 (Usage Example)
+
+## 1. 홈페이지 (Home)
+- **기능**: 현재 위치 기반 날씨 정보를 제공하고, 날씨에 맞는 옷차림을 텍스트로 추천합니다.
+- **사용 방법**:
+  1. 홈페이지에 접속하면, 현재 위치와 현재 위치의 날씨가 자동으로 표시됩니다.
+  2. 추천받은 옷차림을 확인하고 일상에 참고할 수 있습니다.
+
+<img width="938" alt="image" src="https://github.com/user-attachments/assets/16d00a60-a930-4158-9774-7a6664fbe434" />
+
+---
+
+## 2. 로그인 (Login)
+- **기능**: 사용자 계정으로 로그인하여 개인화된 서비스를 이용합니다.(일반 로그인과 구글 계정 연동 로그인 두 가지 방식)
+- **사용 방법**:
+  1. 이메일과 비밀번호를 입력한 후 "로그인" 버튼을 클릭합니다.
+  2. 로그인이 성공하면 마이페이지로 이동합니다.
+
+<img width="983" alt="image" src="https://github.com/user-attachments/assets/dd1c921d-2540-4550-8346-e4e7434c12bb" />
+
+---
+
+## 3. 회원가입 (Signup)
+- **기능**: 새로운 계정을 생성합니다.
+- **사용 방법**:
+  1. 이름, 이메일, 비밀번호 등의 정보를 입력합니다.
+  2. "회원가입" 버튼을 클릭하여 계정을 생성합니다.
+
+<img width="713" alt="image" src="https://github.com/user-attachments/assets/0952fe66-404b-4d4a-b70e-61989720de2b" />
+
+---
+
+## 4. 마이페이지 (My Page)
+- **기능**:  현재 위치 기반 날씨 정보를 제공하고, 날씨와 일정에 맞는 옷차림을 3 가지 추천합니다.
+- **사용 방법**:
+  1. 로그인 후 마이페이지로 이동합니다.
+
+![image](https://github.com/user-attachments/assets/cb0ff0bc-b04e-401d-8c1d-0db5764cf7ac)
+
+---
+
+## 5. 옷차림 등록 (Outfit Registration)
+- **기능**: 추천 받은 옷차림을 오늘 입은 옷으로 등록합니다.
+- **사용 방법**:
+  1. 마이페이지에서 추천 받은 폼중에서 원하는 옷차림 추천 폼 선택
+  2. 착용하려는 옷을 선택하고 "등록" 버튼을 클릭합니다.
+
+![image](https://github.com/user-attachments/assets/372744eb-3900-41d7-8f5a-97edece56bce)
+
+---
+
+## 6. 옷차림 피드백 (Outfit Feedback)
+- **기능**: 추천받은 옷차림에 대한 피드백을 작성합니다.
+- **사용 방법**:
+  1. 추천받은 옷차림 아래에 HOT, GOOD, COLD을 선택합니다.
+
+<img width="478" alt="image" src="https://github.com/user-attachments/assets/1f62069c-d396-49e2-87b5-8af60b38b653" />
+
+---
+
+## 7. 옷장 (Wardrobe)
+- **기능**: 사용자가 등록한 옷을 카테고리별로 관리합니다.
+- **사용 방법**:
+  1. 상의, 하의, 외투 등의 카테고리를 선택합니다.
+  2. 각 옷의 상세 정보를 확인하거나 수정 및 삭제할 수 있습니다.
+
+![image](https://github.com/user-attachments/assets/0b4fff97-347c-496c-8ef4-7d592f8ae367)
+
+---
+
+## 8. 옷 등록 (Clothing Registration)
+- **기능**: 새 옷을 등록하여 옷장에 추가합니다.
+- **사용 방법**:
+  1. 옷의 사진을 업로드하고, 카테고리, 색상 등을 입력합니다.
+     +) 옷 사이트 링크를 넣으면 옷의 이미지와 상품명, 대분류, 소분류, 색상이 자동으로 기입됩니다.
+  3. "등록" 버튼을 클릭하여 저장합니다.
+
+<img width="1088" alt="image" src="https://github.com/user-attachments/assets/dc2a5c60-7006-4f37-9727-36dc07ed302b" />
+
+---
+
+## 9. 여행 페이지 (Travel Page)
+- **기능**: 여행지를 선택하고 해당 지역의 기상 예보와 추천 옷을 확인합니다.
+- **사용 방법**:
+  1. 여행지 나라와 도시를 선택합니다.
+  2. 해당 지역의 기상 예보와 추천 옷이 표시됩니다.
+
+![image](https://github.com/user-attachments/assets/43f19c51-0bf2-4203-8cb3-7f3980368ca2)
