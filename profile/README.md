@@ -17,6 +17,7 @@
 - **🎨사용자 맞춤 경험**: 사용자별 데이터 저장 기능(선택한 옷차림, 옷차림 피드백, 옷 등록, 옷 정보 수정 및 삭제 등)
 - **🤖챗봇 연동**: 카카오톡 챗봇을 연결하여 사용자 편의성 개선
 
+
 ## 기술 스택
 - **Frontend**: React.js, Vercel
 - **Backend**: Spring Boot, MySQL RDS, Nginx
@@ -26,3 +27,32 @@
   - ChatGPT API: 스타일 추천 로직
 - **Authentication**: JWT, OAuth 2.0 (Google 로그인)
 - **Deployment**: AWS EC2, Vercel
+
+
+## 프로젝트 구조 (Backend)
+src
+ └── main
+     ├── java
+     │   └── com.wrongweather.moipzy
+     │       ├── domain
+     │       │   ├── calendar      # 캘린더 관련 도메인 로직 및 API
+     │       │   ├── chatGPT       # ChatGPT API와의 통신 및 데이터 처리
+     │       │   ├── clothes       # 옷 관련 데이터 처리 및 로직
+     │       │   ├── clothImg      # 옷 이미지 업로드 및 관리
+     │       │   ├── crawling      # 옷 쇼핑몰 크롤링 관련 API
+     │       │   ├── email         # 이메일 전송 및 인증 처리
+     │       │   ├── jwt           # JWT 관련 인증 및 토큰 처리
+     │       │   ├── kakao         # 카카오톡 챗봇 연동 및 로직
+     │       │   ├── oAuth2        # OAuth 2.0 인증 처리
+     │       │   ├── schedule      # 서버 구동 시, 일정 시간 마다 일정, 기온 업데이트 하는 스케줄러
+     │       │   ├── style         # 옷차림 추천 로직
+     │       │   ├── token         # 구글 캘린더 연동을 위해 필요한 access/refresh token 관리 
+     │       │   ├── users         # 사용자 관련 데이터 처리
+     │       │   ├── weather       # 날씨 데이터 연동 및 처리
+     │       │   └── BaseTimeEntity # 엔티티 생성 및 수정 시간 추적 공통 모듈
+     │       └── global
+     │           ├── MoipzyApplication # Spring Boot 애플리케이션 시작점
+     └── resources
+         ├── static.uploads.clothes  # 옷 이미지 업로드 저장소
+         ├── templates               # 이메일 템플릿 또는 기타 HTML 파일
+         └── application.yml         # Spring Boot 설정 파일
