@@ -4,7 +4,6 @@
 [2024-2] 중앙대학교 소프트웨어학부 캡스톤 디자인 프로젝트  
 
 <br>
-<br>
 
 ## 💻 팀원
 
@@ -28,7 +27,6 @@
   - AWS EC2, AWS RDS를 사용하여 백엔드 서버 배포
 
 <br>
-<br>
 
 ## 주요 기능
 - **🌡️날씨 정보 제공**: 현재 위치의 실시간 날씨, 최고/최저 기온 표시
@@ -38,11 +36,12 @@
 - **🤖챗봇 연동**: 카카오톡 챗봇을 연결하여 사용자 편의성 개선
 
 <br>
-<br>
 
 ## 기술 스택
 **Frontend**: React.js, Vercel
-**Backend**:
+<br>
+**Backend**
+<br>
 <img src="https://img.shields.io/badge/java-007396?style=for-the-badge&logo=java&logoColor=white">
 <img src="https://img.shields.io/badge/springboot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white">
 <br>
@@ -58,14 +57,12 @@
   - ChatGPT API: 스타일 추천 로직
 **Authentication**: JWT, OAuth 2.0 (Google 로그인)
 **Deployment**: AWS EC2, Vercel
-  
-<br>
+
 <br>
 
 ## 🛠️ Architecture
 ![아키텍쳐 다이어그램](https://github.com/user-attachments/assets/91ec3e15-eed5-4c0a-85cb-f2665bc28948)
 
-<br>
 <br>
 
 ## 프로젝트 구조 (Backend)
