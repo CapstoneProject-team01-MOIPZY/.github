@@ -96,3 +96,23 @@ src
          ├── templates               # 이메일 템플릿 또는 기타 HTML 파일  
          └── application.yml         # Spring Boot 설정 파일
 ```
+
+## 프로젝트 구조 (Frontend)
+```
+src/
+├── api/             # 날씨 관련 API
+├── components/      # 공용 컴퍼넌트1- 옷 차림 등록 등등
+├── components2/     # 공용 컴퍼넌트2- 메뉴바,팝업 형식, 추천 형식 등
+├── pages/          
+│   ├── Clothregister/   # 옷 등록 페이지
+│   ├── Country/         # 여행 페이지
+│   ├── Feedback/        # 옷 피드백 페이지 
+│   ├── Home/            # 홈 페이지
+│   ├── Login/           # 로그인 페이지
+│   ├── Loginmypage/     # 로그인 후 리디렉션 하는 마이페이지
+│   ├── Mycloth/         # 내 옷(사용자가 소유한 옷) 페이지
+│   ├── MyclothModify/   # 옷 정보 수정 및 삭제 페이지
+│   ├── Signup/          # 회원가입 페이지
+│   └── GoogleCallback.js # 구글 로그인 연동
+
+```
